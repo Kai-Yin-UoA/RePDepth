@@ -1,0 +1,13 @@
+{
+  "wandb_api_key": "6ec46179cb10e543c137ed7e9adb9df06f9a2fdc",
+  "DATA_DIR": "./data",
+  "BATCH_SIZE": 64,
+  "EPOCHS": 600,
+  "LR": 0.001,
+  "EMBED_DIM": 512,
+  "MODEL_SCALE": "dinov2_vitl14",
+  "scheduler": {
+    "step_size": 30,
+    "gamma": 0.1
+  }
+}
