@@ -14,7 +14,7 @@ import os
 
 os.environ["PYOPENGL_PLATFORM"] = "egl"
 os.environ["WANDB_START_METHOD"] = "thread"
-os.environ["WANDB_API_KEY"] = "6ec46179cb10e543c137ed7e9adb9df06f9a2fdc"
+os.environ["WANDB_API_KEY"] = "xxx"
 
 
 def fix_random_seed(seed: int):
