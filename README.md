@@ -24,14 +24,14 @@ RePDepth is a monocular metric-depth estimation project. The implementation comb
 The parameter–accuracy plots show that RePDepth's smaller variants retain strong accuracy with a compact model size. RePDepth-XXS uses about **2.2M parameters** on NYUv2 and **1.9M** on KITTI; the larger RePDepth-S variant uses about **6.5M** and **5.8M** parameters, respectively. Bubble size indicates FLOPs.
 
 <p align="center">
-  <img src="assets/para-acc.png" alt="Parameter count versus accuracy on NYUv2" width="620">
-</p>
-<p align="center"><em>NYUv2: parameter count versus δ₁ accuracy. The plot uses the project's previous name, HierDepth, for the XXS/S variants.</em></p>
-
-<p align="center">
   <img src="assets/para-acc_kitti.png" alt="Parameter count versus accuracy on KITTI" width="620">
 </p>
 <p align="center"><em>KITTI: parameter count versus δ₁ accuracy. “Ours-XXS/S” denotes RePDepth-XXS/S.</em></p>
+
+<p align="center">
+  <img src="assets/para-acc.png" alt="Parameter count versus accuracy on NYUv2" width="620">
+</p>
+<p align="center"><em>NYUv2: parameter count versus δ₁ accuracy. The plot uses the project's previous name, HierDepth, for the XXS/S variants.</em></p>
 
 The plots report δ₁ accuracy of approximately **0.827 / 0.858** for XXS/S on NYUv2 and **0.941 / 0.955** on KITTI. They illustrate the accuracy–efficiency trade-off across model sizes; FLOPs are represented by bubble area.
 
