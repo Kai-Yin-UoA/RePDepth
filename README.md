@@ -1,6 +1,6 @@
 <div align="center">
 
-# RePDepth: Compact Metric Depth Estimation
+# RePDepth: Redesigning Lightweight Monocular Depth Estimation Beyond Naive Compression
 
 **Monocular metric depth estimation with a configurable lightweight backbone**
 
